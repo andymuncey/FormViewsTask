@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="FormViewTask.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Books</title>
+    <link href="Styles/StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+      <h1><a href="Default.aspx" runat="server">Books Home</a></h1>
+            
+       
+   
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   <footer>
+       
+       Admin: <a href="Admin/Default.aspx" runat="server">Manage</a> | <a href="Admin/Add.aspx" runat="server">Add books</a> | <a href="Admin/Edit.aspx" runat="server">Edit Books</a>
+   </footer>
+    </form>
+</body>
+</html>
