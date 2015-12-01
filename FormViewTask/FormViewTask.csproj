@@ -77,7 +77,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\Add.aspx" />
-    <Content Include="Admin\Default.aspx" />
     <Content Include="Admin\Edit.aspx" />
     <Content Include="App_Data\Books.mdf" />
     <Content Include="App_Data\Books_log.ldf">
@@ -97,13 +96,6 @@
     </Compile>
     <Compile Include="Admin\Add.aspx.designer.cs">
       <DependentUpon>Add.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Edit.aspx.cs">
       <DependentUpon>Edit.aspx</DependentUpon>
