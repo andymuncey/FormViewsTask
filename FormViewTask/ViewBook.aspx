@@ -8,8 +8,8 @@
     
 
     
-    <asp:Button ID="btnAddWishList" CssClass="actionButton" runat="server" Text="Add to Wish List" />
-    <asp:Button ID="btnBuyNow" runat="server" CssClass="actionButton" Text="Buy It Now" />
+    <asp:Button ID="btnAddWishList" CssClass="actionButton" runat="server" Text="Add to Wish List" OnClientClick='alert("If this was a real website the book would now be in your wish list")' />
+    <asp:Button ID="btnBuyNow" runat="server" CssClass="actionButton" Text="Buy It Now" OnClientClick='alert("If this was a real website the book would now be in your shopping basket")' />
    
 
 </asp:Content>
