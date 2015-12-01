@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <p class="notice">This page should allow staff members to browse books and view details of individual ones. No editing of deletion functionality should be present</p>
+    <p class="notice">This page should allow staff members to browse books and view details of individual ones. No editing or deletion functionality should be present. Ensure the FormView's HTML is cleaned up.</p>
 
     <asp:GridView ID="BooksGridView" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="BooksSqlDataSource">
         <Columns>
